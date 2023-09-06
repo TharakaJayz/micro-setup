@@ -19,7 +19,7 @@ app.use((error,req,res,next) =>{
 
 try{
 
-  mongoose.connect("mongodb+srv://tharakaprabhath300:Tp0718736614@cluster0.zmt7ut1.mongodb.net/rest-test?retryWrites=true&w=majority");
+  mongoose.connect("mongodb+srv://tharakaprabhath300:Tp0718736614@cluster0.zmt7ut1.mongodb.net/micro_books?retryWrites=true&w=majority");
   app.listen(8080, () => {
     console.log("connnected on 8080 successfully ");
   });
